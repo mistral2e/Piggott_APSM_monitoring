@@ -1,4 +1,11 @@
 # Descripton and effects of the rotor deviation
 
-![APSM](IMG_20200809_094218_APSM_Airgap1.jpg)
-<img src="IMG_20200809_094218_APSM_Airgap1.jpg" width="200" />
+
+<!--- Piture Airgap  -->
+<img src="IMG_20200809_094218_APSM_Airgap1.jpg" width="400" />
+
+
+<!--- Piture Airgap  -->
+<img src="RotAuslenk.eps" width="400" />
+
+
