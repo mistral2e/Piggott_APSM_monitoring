@@ -6,6 +6,6 @@
 
 
 <!--- Piture Airgap  -->
-<img src="RotAuslenk.eps" width="400" />
+<img src="Statorschraegstellung.svg" width="400" />
 
 
