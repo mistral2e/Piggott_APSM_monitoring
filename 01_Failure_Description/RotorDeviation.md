@@ -6,6 +6,6 @@
 
 
 <!--- Piture Airgap  -->
-<img src="Statorschraegstellung.svg" width="400" />
+<img src="StatSchraeg.svg" width="400" />
 
 
