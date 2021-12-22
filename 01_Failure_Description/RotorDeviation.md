@@ -6,8 +6,8 @@
 
 Members of the Wind Empowerment Community told me about bearing problems appearing after long operating times. In particular is the loosening of the bearing screw a severe failure. When this screw gets loose the rotor of the wind turbine bents down towards the ground. But it will move only a little bit, because very soon the rotor's magnets will touch the stator. Then when the wind turbine starts turning, the sharp edges of the magnets will destroy the thin isolation of stator.
 
-  # Rotor Deviation vs. Stator Deviation
-  In the following the described failure is called rotor deviation. 
+## Rotor Deviation vs. Stator Deviation
+In the following the described failure is called rotor deviation. The drawing shows the APSM with the pivot point in the bearing, the blue colored rotor and teh orange colored stator.
 
 
 <!--- Rotor Deviation Picture Laboratory -->
