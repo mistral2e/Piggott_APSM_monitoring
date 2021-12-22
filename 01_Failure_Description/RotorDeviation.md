@@ -23,12 +23,12 @@ If you want to loose the bearing screw manually it needs some time because you h
 The following drawing shows simplyfied the flux density in the airgap of the APSM. The green colored flux is caused ideal parallel positioned magnets. The violett colored flux is caused by misaligned magnets.
 
 <!--- Flux parallel  -->
-<img src="DeltaUParallel.svg" width="400" />
+<img src="DeltaUParallel.svg" width="200" />
 The next drawing shows the postion of the stator in the magnetic field when the rotor is deviated. The flux density in the coil area is altered. Especially in the area of the upper and lower coils. 
 <!--- Flux Rotor Deviation  -->
-<img src="DeltaURotAus.svg" width="400" />
+<img src="DeltaURotAus.svg" width="200" />
 When the wind turbine is rotating the magnetic flux caused by the magnets passes the stator's coils with the rotor's velocity. The change of the flux linkage in each coil induces the voltage. According to Faraday's law is the induced voltage proportional to the change of the flux linkage over time:
 <!--- Flux Rotor Deviation  -->
-<img src="FaradaysLaw.png" width="400" />
+<img src="FaradaysLaw.png" width="200" />
 When the rotor is deviated the flux density in the area of the coils differs to the original state. This leads to an altered flux linkage curve and an altered voltage courve. Due to the vertical misalignment of the rotor to the stator is the overal amount of to the flux linked to the coils lower. That's why the voltage RMS value is reduced in case of rotor deviation.
 
