@@ -9,12 +9,13 @@ Members of the Wind Empowerment Community told me about bearing problems appeari
 ## Rotor Deviation vs. Stator Deviation
 In the following the described failure is called rotor deviation. The drawing shows the APSM with the pivot point in the bearing, the blue colored rotor and teh orange colored stator.
 
-
 <!--- Rotor Deviation Picture Laboratory -->
-<img src="IMG_20210727_171714_RotorDeviation" width="400" />
+<img src="IMG_20210727_171714_RotorDeviation.svg" width="200" />
 
+If you want to loose the bearing screw manually it needs some time because you have to dissasemble the front rotor magnet disk. A way more easy is to deviate the stator by adjusting the nuts. I called this stator deviation. The pivot point is then located in the middle of the stator. In consequence the geometry of the stator deviation differs in several ways from the rotor deviation! Mainly because when the rotor is deviated its vertical position is 1 mm below the original state.
 <!--- Stator Deviation  -->
-<img src="StatSchraeg.svg" width="400" />
+<img src="StatSchraeg.svg" width="200" />
+
 
 <!--- Rotor Deviation  -->
 <img src="RotAuslenk.svg" width="400" />
