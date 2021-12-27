@@ -12,7 +12,7 @@ In the following the described failure is called rotor deviation. The drawing sh
 <!--- Rotor Deviation Picture Laboratory -->
 <img src="IMG_20210727_171714_RotorDeviation.jpg" width="200" />
 <!--- Rotor Deviation  -->
-<img src="RotAuslenk.svg" width="400" />
+<img src="RotAuslenk.svg" width="200" />
 
 
 If you want to loose the bearing screw manually it needs some time because you have to dissasemble the front rotor magnet disk. A way more easy is to deviate the stator by adjusting the nuts. I called this stator deviation. The pivot point is then located in the middle of the stator. In consequence the geometry of the stator deviation differs in several ways from the rotor deviation! Mainly because when the rotor is deviated its vertical position is 1 mm below the original state.
@@ -29,6 +29,6 @@ The next drawing shows the postion of the stator in the magnetic field when the 
 <img src="DeltaURotAus.svg" width="200" />
 When the wind turbine is rotating the magnetic flux caused by the magnets passes the stator's coils with the rotor's velocity. The change of the flux linkage in each coil induces the voltage. According to Faraday's law is the induced voltage proportional to the change of the flux linkage over time:
 <!--- Flux Rotor Deviation  -->
-<img src="FaradaysLaw.png" width="200" />
+<img src="FaradaysLaw.png" width="100" />
 When the rotor is deviated the flux density in the area of the coils differs to the original state. This leads to an altered flux linkage curve and an altered voltage courve. Due to the vertical misalignment of the rotor to the stator is the overal amount of to the flux linked to the coils lower. That's why the voltage RMS value is reduced in case of rotor deviation.
 
