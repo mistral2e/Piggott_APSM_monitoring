@@ -1,3 +1,4 @@
 # Measurement Data
 
-+ Folder 20210727: Rotor is deviated (germ. Rotorauslenkung), Rotor speed = const.
++ Folder 20210727: Rotor is deviated (Germ. Rotorauslenkung), Rotor speed = const.
++ Folder 20210729: Stator is inclined (Germ. Statorschrägstellung), Rotor speed = const.

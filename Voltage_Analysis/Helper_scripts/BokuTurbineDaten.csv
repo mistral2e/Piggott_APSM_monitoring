@@ -39,9 +39,9 @@
 37;38;20210429;Aufnahme;scope;03,04,05;Lines_20210429_203420;../measurement_data/20210429/scope/scope_5_1.csv;parallel;;;23.45;Hz;
 38;39;20210429;Aufnahme;scope;6,7;Lines_20210429_210044;../measurement_data/20210429/scope/scope_6_1.csv;parallel;;;23.52;Hz;
 39;40;20210429;Aufnahme;scope;8,9;Lines_20210429_210514;../measurement_data/20210429/scope/scope_9_1.csv;parallel;;;23.52;Hz;
-40;41;20210429;Aufnahme;scope;10,11;Lines_20210429_212447;../measurement_data/20210429/scope/scope_10_1.csv;schief;;;23.45;Hz;
-41;42;20210429;Aufnahme;scope;12,13,14(kleines csv);Lines_20210429_212813;../measurement_data/20210429/scope/scope_13_1.csv;schief;mit Auslauf;;23.49;Hz;
-42;43;20210429;Aufnahme;scope;15,16,17;Lines_20210429_213308;../measurement_data/20210429/scope/scope_16_1.csv;schief;mit Auslauf;;23.52;Hz;
+40;41;20210429;Aufnahme;scope;10,11;Lines_20210429_212447;../measurement_data/20210429/scope/scope_10_1.csv;Stator_Inclined;;;23.45;Hz;
+41;42;20210429;Aufnahme;scope;12,13,14(kleines csv);Lines_20210429_212813;../measurement_data/20210429/scope/scope_13_1.csv;Stator_Inclined;mit Auslauf;;23.49;Hz;
+42;43;20210429;Aufnahme;scope;15,16,17;Lines_20210429_213308;../measurement_data/20210429/scope/scope_16_1.csv;Stator_Inclined;mit Auslauf;;23.52;Hz;
 43;44;20210510;Input;Wemos;1;ZC_L3L2;;;;;;;
 44;45;20210510;Input;Wemos;2;ZC_L2L1;;;;;;;
 45;46;20210510;Input;Wemos;3;ZC_L1L3;;;;;;;
@@ -53,17 +53,17 @@
 51;52;20210510;Channel;scope;2;L1L3;;;;;;;
 52;53;20210510;trigger;wemos;extern;Anzeige um -2.5sek verschoben;;;;;2.40;Mcycles;
 53;54;20210510;Auflösung;scope;HoheAufl;100kSa/s;;;;;;;
-54;55;20210510;Aufnahme;scope;18,19;../measurement_data/20210510/ZC+lines/Lines_20210510_181329.csv;../measurement_data/20210510/scope/scope_19_1.csv;schief;;;29.50;Hz;
-55;56;20210510;Aufnahme;scope;20;../measurement_data/20210510/ZC+lines/Lines_20210510_183507.csv;../measurement_data/20210510/scope/scope_20_1.csv;schief;;;29.00;Hz;
-56;57;20210510;Aufnahme;scope;21,22;../measurement_data/20210510/ZC+lines/Lines_20210510_183740.csv;../measurement_data/20210510/scope/scope_21_1.csv;schief;;;29.50;Hz;
-57;58;20210510;Aufnahme;scope;23,24;../measurement_data/20210510/ZC+lines/Lines_20210510_184406.csv;../measurement_data/20210510/scope/scope_24_1.csv;schief;;;29.00;Hz;
-58;59;20210510;Aufnahme;scope;25;../measurement_data/20210510/ZC+lines/Lines_20210510_184729.csv;../measurement_data/20210510/scope/scope_25_1.csv;schief;;;29.50;Hz;
+54;55;20210510;Aufnahme;scope;18,19;../measurement_data/20210510/ZC+lines/Lines_20210510_181329.csv;../measurement_data/20210510/scope/scope_19_1.csv;Stator_Inclined;;;29.50;Hz;
+55;56;20210510;Aufnahme;scope;20;../measurement_data/20210510/ZC+lines/Lines_20210510_183507.csv;../measurement_data/20210510/scope/scope_20_1.csv;Stator_Inclined;;;29.00;Hz;
+56;57;20210510;Aufnahme;scope;21,22;../measurement_data/20210510/ZC+lines/Lines_20210510_183740.csv;../measurement_data/20210510/scope/scope_21_1.csv;Stator_Inclined;;;29.50;Hz;
+57;58;20210510;Aufnahme;scope;23,24;../measurement_data/20210510/ZC+lines/Lines_20210510_184406.csv;../measurement_data/20210510/scope/scope_24_1.csv;Stator_Inclined;;;29.00;Hz;
+58;59;20210510;Aufnahme;scope;25;../measurement_data/20210510/ZC+lines/Lines_20210510_184729.csv;../measurement_data/20210510/scope/scope_25_1.csv;Stator_Inclined;;;29.50;Hz;
 59;60;20210510;Aufnahme;scope;26,27;../measurement_data/20210510/ZC+lines/Lines_20210510_190525.csv;../measurement_data/20210510/scope/scope_26_1.csv;parallel;;;29.50;Hz;
 60;61;20210510;Aufnahme;scope;28,29;../measurement_data/20210510/ZC+lines/Lines_20210510_190924.csv;../measurement_data/20210510/scope/scope_29_1.csv;parallel;;;29.50;Hz;
 61;62;20210510;Aufnahme;scope;30,31;../measurement_data/20210510/ZC+lines/Lines_20210510_191209.csv;../measurement_data/20210510/scope/scope_30_1.csv;parallel;;;29.50;Hz;
 62;63;20210510;Aufnahme;scope;32,33;../measurement_data/20210510/ZC+lines/Lines_20210510_191448.csv;../measurement_data/20210510/scope/scope_33_1.csv;parallel;;;30.10;Hz;
 63;64;20210510;Aufnahme;scope;34,35;../measurement_data/20210510/ZC+lines/Lines_20210510_191740.csv;../measurement_data/20210510/scope/scope_34_1.csv;parallel;;;29.50;Hz;
-64;65;20210510;Gen_BOKU;;Statorschraegstellung;unten Abstand 3.05 mm ;oben Abstand 2.67 mm;schief;;;;;
+64;65;20210510;Gen_BOKU;;Statorschraegstellung;unten Abstand 3.05 mm ;oben Abstand 2.67 mm;Stator_Inclined;;;;;
 65;66;0;Gen_BOKU;;Statorschraegstellung;unten Abstand 2.96 mm ;oben Abstand 2.91 mm;parallel;;;;;
 66;67;20210527;Input;Wemos;1;ZC_L3L2;;;;;;;
 67;68;20210527;Input;Wemos;2;ZC_L2L1;;;;;;;
@@ -127,7 +127,7 @@
 126;127;20210727;Aufnahme;scope;61;../measurement_data/20210727/ZC/Lines_20210728_100044.csv;../measurement_data/20210727/scope/scope_61_1.csv;parallel;;;31.00;Hz;
 127;128;20210727;Aufnahme;scope;62,63,64 (einfaches csv);../measurement_data/20210727/ZC/Lines_20210728_100226.csv;../measurement_data/20210727/scope/scope_62_1.csv;parallel;;;31.50;Hz;
 128;129;20210729;Gen_BOKU;Aufgeständert;;Antrieb mit konstante Geschwindigkeit mit Akkuschrauber an Spannungsquelle;;;;;;;
-129;130;20210729;Gen_BOKU;;Statorschraegstellung;b=3.07 c=2.7;gemessen von Oberfläche vordere Scheibe zur Oberfläche Stator;schief;;;;;
+129;130;20210729;Gen_BOKU;;Statorschraegstellung;b=3.07 c=2.7;gemessen von Oberfläche vordere Scheibe zur Oberfläche Stator;Stator_Inclined;;;;;
 130;131;20210729;Gen_BOKU;;Statorschraegstellung;a=b=c=2.92 cm;gemessen von Oberfläche vordere Scheibe zur Oberfläche Stator;parallel;;;;;
 131;132;20210729;Input;Wemos;1;ZC_L3L2;;;;;;;
 132;133;20210729;Input;Wemos;2;ZC_L2L1;;;;;;;
@@ -146,13 +146,13 @@
 145;146;20210729;Aufnahme;scope;68;../measurement_data/20210729/ZC/Lines_20210729_083059.csv;../measurement_data/20210729/scope/scope_68_1.csv;parallel;;;31.20;Hz;
 146;147;20210729;Aufnahme;scope;69;../measurement_data/20210729/ZC/Lines_20210729_084211.csv;../measurement_data/20210729/scope/scope_69_1.csv;parallel;;;31.30;Hz;
 147;148;20210729;Aufnahme;scope;70;../measurement_data/20210729/ZC/Lines_20210729_084435.csv;../measurement_data/20210729/scope/scope_70_1.csv;parallel;;;31.20;Hz;
-148;149;20210729;Aufnahme;scope;71;../measurement_data/20210729/ZC/Lines_20210729_085641.csv;../measurement_data/20210729/scope/scope_71_1.csv;schief;;;31.20;Hz;
-149;150;20210729;Aufnahme;scope;72;../measurement_data/20210729/ZC/Lines_20210729_085916.csv;../measurement_data/20210729/scope/scope_72_1.csv;schief;;;;Hz;
-150;151;20210729;Aufnahme;scope;73;../measurement_data/20210729/ZC/Lines_20210729_090425.csv;../measurement_data/20210729/scope/scope_73_1.csv;schief;;;31.20;Hz;
-151;152;20210729;Aufnahme;scope;74;../measurement_data/20210729/ZC/Lines_20210729_090643.csv;../measurement_data/20210729/scope/scope_74_1.csv;schief;;;31.20;Hz;abnehmnede Drehzahl
-152;153;20210729;Aufnahme;scope;75;../measurement_data/20210729/ZC/Lines_20210729_090841.csv;../measurement_data/20210729/scope/scope_75_1.csv;schief;;;31.20;Hz;
-153;154;20210729;Aufnahme;scope;76;../measurement_data/20210729/ZC/Lines_20210729_091243.csv;../measurement_data/20210729/scope/scope_76_1.csv;schief;;;31.00;Hz;n const
-154;155;20210729;Aufnahme;scope;77;../measurement_data/20210729/ZC/Lines_20210729_091428.csv;../measurement_data/20210729/scope/scope_77_1.csv;schief;;;31.30;Hz;n const
+148;149;20210729;Aufnahme;scope;71;../measurement_data/20210729/ZC/Lines_20210729_085641.csv;../measurement_data/20210729/scope/scope_71_1.csv;Stator_Inclined;;;31.20;Hz;
+149;150;20210729;Aufnahme;scope;72;../measurement_data/20210729/ZC/Lines_20210729_085916.csv;../measurement_data/20210729/scope/scope_72_1.csv;Stator_Inclined;;;;Hz;
+150;151;20210729;Aufnahme;scope;73;../measurement_data/20210729/ZC/Lines_20210729_090425.csv;../measurement_data/20210729/scope/scope_73_1.csv;Stator_Inclined;;;31.20;Hz;
+151;152;20210729;Aufnahme;scope;74;../measurement_data/20210729/ZC/Lines_20210729_090643.csv;../measurement_data/20210729/scope/scope_74_1.csv;Stator_Inclined;;;31.20;Hz;abnehmnede Drehzahl
+152;153;20210729;Aufnahme;scope;75;../measurement_data/20210729/ZC/Lines_20210729_090841.csv;../measurement_data/20210729/scope/scope_75_1.csv;Stator_Inclined;;;31.20;Hz;
+153;154;20210729;Aufnahme;scope;76;../measurement_data/20210729/ZC/Lines_20210729_091243.csv;../measurement_data/20210729/scope/scope_76_1.csv;Stator_Inclined;;;31.00;Hz;n const
+154;155;20210729;Aufnahme;scope;77;../measurement_data/20210729/ZC/Lines_20210729_091428.csv;../measurement_data/20210729/scope/scope_77_1.csv;Stator_Inclined;;;31.30;Hz;n const
 155;156;0;;;;;;;;;;;
 156;157;0;;;;;;;;;;;
 157;158;0;;;;;;;;;;;
