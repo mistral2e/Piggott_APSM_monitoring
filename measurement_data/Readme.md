@@ -1,3 +1,3 @@
 # Measurement Data
 
-+ Folder 20210727: Rotor is deviated (germ. Rotorauslenkung)
++ Folder 20210727: Rotor is deviated (germ. Rotorauslenkung), Rotor speed = const.
