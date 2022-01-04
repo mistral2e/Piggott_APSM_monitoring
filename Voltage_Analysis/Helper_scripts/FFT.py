@@ -82,7 +82,7 @@ def plotfft2(df_b1,**kwargs):
            axb=axo
     for index, row in scope_dat.iterrows():
         if(index in df_b1):
-            if(row['Symbol']=='schief'):
+            if(row['Symbol']=='Stator_Inclined'):
                 c1='C0';t1='inclied';lw1=3*0.5;ls1='-.'
                 s1=sp;mv=+mv0
                 m1='P'
