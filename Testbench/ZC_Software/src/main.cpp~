@@ -1,0 +1,24 @@
+#include <Arduino.h>
+
+// #define BLK 12
+#define V1 D2
+
+void setup(){
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH);
+  Serial.begin(115200);
+  Serial.println("Booting");
+  digitalWrite(LED_BUILTIN, LOW);
+}
+int i=0;
+
+void loop() {
+  Serial.println(i);
+  i++;
+  digitalWrite(LED_BUILTIN, HIGH);
+  wait(100);
+  digitalWrite(LED_BUILTIN, LOW);
+  wait(100);
+
+}
+  
