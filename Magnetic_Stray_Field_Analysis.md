@@ -2,7 +2,7 @@
 
 Around the APSM Generator exists a stray magnetic field, which is caused by the permanent magnets on the rotor disks. So it moves with the magnets when the rotor revolves. The leakage flux is the part of the magnetic flux, that doesn't pass the coils as the main flux do.
 
-<img src="./Stray_Field_Analysis/Streufluss_en2.svg" width="300" />
+<img src="./Stray_Field_Analysis/Streufluss_en1.png" width="300" />
 
 The aim of the experiment was to figure out, whether the leakage flux is a suitable input quantity to detect the rotor deviation with today's low cost hardware.
 Therefore the magnetic flux density was measured with a 3D Hall-Sensor GY-271 which was positioned on the edge if the stator housing.
