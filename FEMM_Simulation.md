@@ -9,9 +9,9 @@ Secondly the flux linkeage in one coil was simulated along its way whith and wit
 <img src="./FEMM_Simulation/LinienintegraleFEK.png" width="800" />
 
 
-<img src="./FEMM_Simulation/FluxLinkeage.png" width="800" />
+<img src="./FEMM_Simulation/FluxLinkeage.svg" width="800" />
 
-<img src="./FEMM_Simulation/U_Sim_U_Diff.png" width="800" />
+<img src="./FEMM_Simulation/U_Sim_U_Diff.svg" width="800" />
 
 With this flux linkeage data the induced voltage is approximated in the [notebook](./FEMM_Simulation/Auswertung_2F12P.ipynb).
 
