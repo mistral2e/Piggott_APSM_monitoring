@@ -1,4 +1,4 @@
-# Monitoring of the Piggott Wind Turbine Generator (APSM)
+# Monitoring of the Piggott APSM Wind Turbine Generator
 
 Generator failures of the Piggott Wind Turbine can be detected by applying electrical signature analysis (ESA). In my Master thesis I deployed ESA to detect [rotor deviation](./RotorDeviation.md), which is a typical generator failure when the wheel bearing screw becomes loose.
 The Full text of the Master Thesis is available on TU Vienna Library's website: [Link](
@@ -10,8 +10,8 @@ This repository holds:
 - [Simulation of the deviated rotor with FEMM](./FEMM_Simulation.md)
 - Measured raw Voltage Signal (open circuit terminal voltage) and the description of the [testbench](./Testbench.md)
 - [Voltage RMS and Fourier Analysis](./VoltageAnalysis.md)
-- [Zero-Crossing Timing Analysis](./VoltageAnalysis.md)
-- [Magnetic_Stray_Field_Analysis](./Magnetic_Stray_Field_Analysis.md)
+- [Zero-Crossing Time Analysis](./VoltageAnalysis.md)
+- [Magnetic Stray Field Analysis](./Magnetic_Stray_Field_Analysis.md)
 
 The outcomes are:
 - Rotor deviation is detectable by

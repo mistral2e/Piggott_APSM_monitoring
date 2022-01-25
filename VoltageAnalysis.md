@@ -18,6 +18,7 @@ The shape of the generator terminals voltage curve is not a perfect sinus curve 
 
 <img src="./Voltage_Analysis/FourierTransformationWikipedia.svg" width="200" />
 Formula from [wikipedia](https://en.wikipedia.org/wiki/Fourier_analysis) .
+[I'm an inline-style link](https://www.google.com)
 
 For the interested reader I want to explain the core principal behind the FT. In our case, s(t) is the recorded voltage signal. This voltage signal will then be multiplied by a perfect sinus wave with the frequency f. The perfect sinus wave is given in form of the complex function exp(-j2pi*f*t). This calculation will be made with many frequencies. When the measured signal equals one sinus function with the frequency f1 the result S(f1) will be a high value. When there are only a few matches with the frequency f2 the result (sum) S(f2) will be very little. The spectrum shows all the sums S(f).
 
