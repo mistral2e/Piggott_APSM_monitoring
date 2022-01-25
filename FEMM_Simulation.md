@@ -7,8 +7,10 @@ The first outcome of the simulation is the knowledge about the double cone shape
 
 Secondly the flux linkeage in one coil was simulated along its way whith and without rotor deviation.
 <img src="./FEMM_Simulation/LinienintegraleFEK.png" width="800" />
+When the coils are closer to the magnets, the flux density is higher:
+<img src="./FEMM_Simulation/B_Airgap_FEK.svg" width="800" />
 
-
+## Effects on the induced Voltage
 <img src="./FEMM_Simulation/FluxLinkeage.svg" width="800" />
 
 
