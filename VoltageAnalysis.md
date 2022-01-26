@@ -1,12 +1,11 @@
 # Analysis of the Generator Voltage with deviated rotor
 
-In this file the effects of the rotor and stator deviation on the induced terminals voltage will be described. The analysis is based on oscillograms of the APMS voltage which is induced when the rotor is driven with constant speed.
+In this file the effects of the rotor and stator deviation on the induced terminals voltage will be described. The analysis is based on oscillograms of the APMS voltage which is induced when the rotor is driven with constant speed. The approaches for analyzing the voltage with decreasing speed are described [here](./VoltageAnalysis_ndec.md).
 
 ## Effective RMS Value
 When the rotor is deviated, the flux linkage is reduced. The consequence is a lower voltage amplitude. This is confirmed by the measurement series. The voltage drops approx. 0.4 V when the bearing screw is loose, as calculated [here](./Voltage_Analysis/RotorDeviation_URMS_nconst.ipynb).
 
 <img src="./Voltage_Analysis/U_RotorDeviated.svg" width="600" />
-
 
 When the stator is inclined, there could be no significant variation of the effective voltage value be observed. [Link](./Voltage_Analysis/StatorInclination_URMS_nconst.ipynb) to the notebook.
 
@@ -19,7 +18,6 @@ The shape of the generator terminals voltage curve is not a perfect sinus curve 
 <img src="./Voltage_Analysis/FourierTransformationWikipedia.svg" width="200" />
 
 Formula from [wikipedia](https://en.wikipedia.org/wiki/Fourier_analysis) .
-[I'm an inline-style link](https://www.google.com)
 
 For the interested reader I want to explain the core principal behind the FT. In our case, s(t) is the recorded voltage signal. This voltage signal will then be multiplied by a perfect sinus wave with the frequency f. The perfect sinus wave is given in form of the complex function exp(-j2pi*f*t). This calculation will be made with many frequencies. When the measured signal equals one sinus function with the frequency f1 the result S(f1) will be a high value. When there are only a few matches with the frequency f2 the result (sum) S(f2) will be very little. The spectrum shows all the sums S(f).
 
@@ -33,6 +31,7 @@ With the numpy fft function the voltage signal was analyzed. Due to the slightly
 
 <img src="./Voltage_Analysis/fc_Bins_plot_all_nconst.svg" width="800" />
 **Results** : With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic are increased.
+
 
 ## Voltage Zero Crossing Time Analysis
 Another approach for the detection of the rotor deviation is to analyse the timestamps of the *voltage zero crossing (ZC)*. In theory the time of the Voltage ZC changes when the rotor is deviated. The additional hardware is described *here*. On the one hand is the advantage of this method the simple and cheap hardware setup. On the other hand is the analysis a way more complicated. Within this work a change of the ZC timestamps could not be shown. In the 'ZC_lines.csv' file are the timestamps recorded by the ESP8266 stored, which were sent to an computer. The timestamps of the ZC between all three lines were recorded. Then the Python notebooks were used to visualize the time differences. For this the time differences between each timestamp were calculated. Then a regression was made to have an estimated time for each ZC-Event. The difference between the regression and the measured timestamp is then visually analyzed. 
