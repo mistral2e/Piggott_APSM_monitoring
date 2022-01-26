@@ -19,4 +19,4 @@ The outcomes are:
   - harmonics
 - the rotation angle can be derived from the voltage 
 
-Thanks to Jonathan Schreiber for all the talks and technical support.
+Thanks to [Jonathan Schreiber](https://pureselfmade.com/) for all the talks and technical support.
