@@ -30,7 +30,8 @@ With the numpy fft function the voltage signal was analyzed. Due to the slightly
 
 
 <img src="./Voltage_Analysis/fc_Bins_plot_all_nconst.svg" width="800" />
-**Results** : With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic are increased.
+
+**Results:** With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic are increased.
 
 
 ## Voltage Zero Crossing Time Analysis

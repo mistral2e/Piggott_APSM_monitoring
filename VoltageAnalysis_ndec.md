@@ -4,7 +4,7 @@ In the [previous chapter](./VoltageAnalysis.md) the voltage was analyzed with co
 Within the Master thesis the voltage signal of the Generator with decreasing Speed was analyzed. Therefore the Rotor was accelerated and then run down without any load.
 In this process it was found that the friction in the bearing increases when the rotor is deviated. In consequence is the speed reduction resp. the rate of the electrical frequency decrease higher if the rotor is deviated. So the complexity of the Analysis increases because the voltage signals are not easily comparable. 
 
-<img src="./Voltage_Analysis/SpeedDecreaseRotorDeviation.svg" width="500" />
+<img src="./Voltage_Analysis/SpeedDecreaseRotorDeviation.svg" width="300" />
 
 ## RMS Voltage Analysis
 
@@ -18,7 +18,7 @@ The RMS voltage was analyzed by comparing the RMS value of short intervals with 
 
 When the rotor speed is decreasing the electrical frequency decreases in same amounts. This leads to a shift in the frequency spectrum in the direction of lower frequencies, as shown in the following chart:
 
-<img src="./Voltage_Analysis/SpektrumDrehzahl.png" width="600" />
+<img src="./Voltage_Analysis/SpektrumDrehzahl.png" width="800" />
 
 The chart shows the spectrum of the Generator voltage. The spectrum is the result of four Short-Time-FT over a time span of 1 second.
 
@@ -32,7 +32,7 @@ When one wants to sum up the spectrum into bins with a fixed with as it was done
 The following chart shows the results of the STFT with decreasing speed. The tendency of the red crossed bars is different to the analysis results with constant speed.
 
 
-<img src="./Voltage_Analysis/fc_Bins_plot_all_ndec.png" width="600" />
+<img src="./Voltage_Analysis/fc_Bins_plot_all_ndec.png" width="700" />
 ( Statorschrägstellung = Stator Inclination ; Rotorauslenkung = Rotor Deviation; Ordnungszahl = harmonic)
 
 **Results:** As shown in the chart can the rotor deviation be detected with the attached algorithm and a focus on the 3rd and 5th harmonic. 
