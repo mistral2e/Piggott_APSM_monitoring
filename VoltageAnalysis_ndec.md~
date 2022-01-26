@@ -1,0 +1,5 @@
+# Voltage Analysis with decreasing rotor speed
+In the [prevoius chapter](./VoltageAnalysis.md) the voltage was analyzed whith constant rotor speed. But in reality the speed of the wind turbine's rotor is variable and depends on the wind speed and load. In consequence the voltage analysis methods need to be improved, so that they can be applied on a voltage singal with variable frequency and amplitude.
+## RMS Voltage Analysis
+
+

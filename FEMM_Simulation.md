@@ -11,10 +11,11 @@ When the coils are closer to the magnets, the flux density is higher:
 <img src="./FEMM_Simulation/B_Airgap_FEK.svg" width="800" />
 
 ## Effects on the induced Voltage
+The flux linkeage of an inclined coil close to the magnets shows the following chart:
 <img src="./FEMM_Simulation/FluxLinkeage.svg" width="800" />
 
 
-With this flux linkeage data the induced voltage is approximated in the [notebook](./FEMM_Simulation/Auswertung_2F12P.ipynb).
+With this flux linkeage data the induced voltage is approximated in the [notebook](./FEMM_Simulation/Analysis_2F12P-FluxLinkage.ipynb).
 The focus here is on the change of the induced voltage when the geometry is altered and not on the absolute voltage amounts. Later on the terminals voltage is analyzed and in this section only one coil is analyzed. There is no contradiction because the shape of the sinusoidal terminal voltage curve is the same as the coil voltage curve. But the terminals voltage amplitude and phase is diffrent to the voltage induced in the coils (Hint: 1*exp(j0)+1*exp(j120°)=1/2*exp(j60°) ). 
 
 For having the same levels as the original generator, the simulated induced voltage values are converted to the generator nominal voltage:
