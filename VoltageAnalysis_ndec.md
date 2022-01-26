@@ -30,10 +30,11 @@ When one wants to sum up the spectrum into bins with a fixed with as it was done
 The following chart shows the results of the STFT with decreasing speed. The tendency of the red crossed bars is different to the analysis results with constant speed.
 
 
-<img src="./Voltage_Analysis/SpektrumDrehzahl.png" width="600" />
+<img src="./Voltage_Analysis/fc_Bins_plot_all_ndec.png" width="800" />
 ( Statorschrägstellung = Stator Inclination ; Rotorauslenkung = Rotor Deviation; Ordnungszahl = harmonic)
 
-### Results As shown in the chart can the rotor deviation be detected with the attached algorithm and a focus on the 3rd and 5th harmonic. 
+### Results
+As shown in the chart can the rotor deviation be detected with the attached algorithm and a focus on the 3rd and 5th harmonic. 
 
 ## Ideas for the improvement of the Algorithm
 * automatic variation of the bin width
