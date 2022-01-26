@@ -4,15 +4,17 @@ In the [previous chapter](./VoltageAnalysis.md) the voltage was analyzed with co
 Within the Master thesis the voltage signal of the Generator with decreasing Speed was analyzed. Therefore the Rotor was accelerated and then run down without any load.
 In this process it was found that the friction in the bearing increases when the rotor is deviated. In consequence is the speed reduction resp. the rate of the electrical frequency decrease higher if the rotor is deviated. So the complexity of the Analysis increases because the voltage signals are not easily comparable. 
 
-<img src="./Voltage_Analysis/SpeedDecreaseRotorDeviation.svg" width="400" />
+<img src="./Voltage_Analysis/SpeedDecreaseRotorDeviation.svg" width="500" />
 
 ## RMS Voltage Analysis
 
 The RMS voltage was analyzed by comparing the RMS value of short intervals with the same average frequency. Unfortunately could the voltage decrease not be proven.
 
-* [notebook](RotorDeviation_URMS_ndec.ipynb)
+* [notebook](./Voltage_Analysis/RotorDeviation_URMS_ndec.ipynb)
 
 ## Fourier Analysis
+
+* [notebook](./Voltage_Analysis/RotorDeviation_FFT_ndec.ipynb)
 
 When the rotor speed is decreasing the electrical frequency decreases in same amounts. This leads to a shift in the frequency spectrum in the direction of lower frequencies, as shown in the following chart:
 
@@ -22,7 +24,7 @@ The chart shows the spectrum of the Generator voltage. The spectrum is the resul
 
 The increased deceleration of the rotor speed when the rotor is deviated alters the shape of the peaks in the spectrum:
 
-<img src="./Voltage_Analysis/Spektrum5u7Oberwelle.svg" width="400" />
+<img src="./Voltage_Analysis/Spektrum5u7Oberwelle.svg" width="600" />
 
 The reason is, that the FT time interval (1 sec) had not been altered. In case that the friction is higher the frequency change is also higher. And this reflects the spectrum.
 This effect is gaining importance the higher the observed frequencies are, because the frequency change is higher.
@@ -30,7 +32,7 @@ When one wants to sum up the spectrum into bins with a fixed with as it was done
 The following chart shows the results of the STFT with decreasing speed. The tendency of the red crossed bars is different to the analysis results with constant speed.
 
 
-<img src="./Voltage_Analysis/fc_Bins_plot_all_ndec.png" width="800" />
+<img src="./Voltage_Analysis/fc_Bins_plot_all_ndec.png" width="600" />
 ( Statorschrägstellung = Stator Inclination ; Rotorauslenkung = Rotor Deviation; Ordnungszahl = harmonic)
 
 ### Results
