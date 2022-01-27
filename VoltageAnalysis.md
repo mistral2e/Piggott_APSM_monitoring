@@ -1,4 +1,4 @@
-# Analysis of the Generator Voltage with deviated rotor
+# Analysis of the generator voltage with deviated rotor
 
 In this file the effects of the rotor and stator deviation on the induced terminals voltage will be described. The analysis is based on oscillograms of the APMS voltage which is induced when the rotor is driven with constant speed. The approaches for analyzing the voltage with decreasing speed are described [here](./VoltageAnalysis_ndec.md).
 
@@ -7,13 +7,13 @@ When the rotor is deviated, the flux linkage is reduced. The consequence is a lo
 
 <img src="./Voltage_Analysis/U_RotorDeviated.svg" width="600" />
 
-When the stator is inclined, there could be no significant variation of the effective voltage value be observed. [Link](./Voltage_Analysis/StatorInclination_URMS_nconst.ipynb) to the notebook.
+When the stator is inclined, there can be no significant variation of the effective voltage value be observed. [Link](./Voltage_Analysis/StatorInclination_URMS_nconst.ipynb) to the notebook.
 
 <img src="./Voltage_Analysis/U_StatorInclination.svg" width="600" />
 
 ## Fourier Analysis
 
-The shape of the generator terminals voltage curve is not a perfect sinus curve and alters its shape when the rotor is deviated. For the description of the voltage curve's shape the Fourier Transformation (FT) is used.
+The shape of the generator terminals voltage curve is not a perfect sinus curve and alters its shape when the rotor is deviated. For the description of the voltage curve's shape the Fourier Transformation (FT) is applied.
 
 <img src="./Voltage_Analysis/FourierTransformationWikipedia.svg" width="200" />
 
@@ -31,12 +31,12 @@ With the numpy fft function the voltage signal was analyzed. Due to the slightly
 
 <img src="./Voltage_Analysis/fc_Bins_plot_all_nconst.svg" width="800" />
 
-**Results:** With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic are increased.
+**Results:** With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic increase.
 
 **Practical Implementation:** An approximate [calculation](./Voltage_Analysis/FourierSyntheseAndESP8266ADC.ipynb) shows that the resolution of an ESP8266 ADC is high enough to detect the rotor deviation.
 
 ## Voltage Zero Crossing Time Analysis
-Another approach for the detection of the rotor deviation is to analyse the timestamps of the *voltage zero crossing (ZC)*. In theory the time of the Voltage ZC changes when the rotor is deviated. The additional hardware is described *here*. On the one hand is the advantage of this method the simple and cheap hardware setup. On the other hand is the analysis a way more complicated. Within this work a change of the ZC timestamps could not be shown. In the 'ZC_lines.csv' file are the timestamps recorded by the ESP8266 stored, which were sent to an computer. The timestamps of the ZC between all three lines were recorded. Then the Python notebooks were used to visualize the time differences. For this the time differences between each timestamp were calculated. Then a regression was made to have an estimated time for each ZC-Event. The difference between the regression and the measured timestamp is then visually analyzed. 
+Another approach for the detection of the rotor deviation is to analyse the timestamps of the *voltage zero crossing (ZC)*. In theory the time of the voltage ZC changes when the rotor is deviated. The additional hardware is described *here*. On the one hand is the advantage of this method the simple and cheap hardware setup. On the other hand is the analysis a way more complicated. Within this work a change of the ZC timestamps could not be shown. In the 'ZC_lines.csv' file are the timestamps recorded by the ESP8266 stored, which were sent to an computer. The timestamps of the ZC between all three lines were recorded. Then the Python notebooks were used to visualize the time differences. For this the time differences between each timestamp were calculated. Then a regression was made to have an estimated time for each ZC-Event. The difference between the regression and the measured timestamp is then visually analyzed. 
 
 <img src="./Voltage_Analysis/AZC_3Phasen_MA_9_gerade_reg_2_en.svg" width="800" />
 
@@ -47,7 +47,7 @@ The chart and the heat map show a pattern which is a result from constructional 
 * [Notebook Rotor Deviation](./Voltage_Analysis/ZC_Analysis_3phase_RotorDeviated.ipynb)
 * [Notebook Rotor Stator parallel](./Voltage_Analysis/ZC_Analysis_3phase_parallel.ipynb) 
 
-In this work some first experiments were made to show the potential of the ZC-Method. The next research task are:
+In this work some first experiments were made to show the potential of the ZC method. The next research task are:
 * improvisation of the hardware to decrease measuring errors
 * show whether the rotor deviation can be detected with the ZC timestamps
 * develop an algorithm to get the rotation angle by analyzing the pattern

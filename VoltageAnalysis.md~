@@ -1,8 +1,0 @@
-# Analysis of the Generator Voltage with deviated rotor
-
-In this file the effects of the rotor and stator deviation on the induced terminals voltage will be described. The analysis is based on oscillograms of the APMS voltage which is induced when the rotor is driven with constant speed.
-
-## Effective RMS Value
-When the rotor is deviated, the flux linkage is reduced. The consequence is a lower voltage amplitude. This is confirmed by the measurement series. The voltage drops approx. 0.4 V when the bearing screw is loose, as calculated [here](./Voltage_Analysis/RotorDeviation_URMS_nconst.ipynb).
-
-When the stator is deviated, there could be no significant variiation of the effective value be observed.

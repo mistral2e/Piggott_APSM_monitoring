@@ -26,9 +26,9 @@ The increased deceleration of the rotor speed when the rotor is deviated alters 
 
 <img src="./Voltage_Analysis/Spektrum5u7Oberwelle.svg" width="600" />
 
-The reason is, that the FT time interval (1 sec) had not been altered. In case that the friction is higher the frequency change is also higher. And this reflects the spectrum.
-This effect is gaining importance the higher the observed frequencies are, because the frequency change is higher.
-When one wants to sum up the spectrum into bins with a fixed with as it was done before, the results aren't representative anymore for all harmonics.
+The reason is, that the FT time interval (1 sec) had not been altered. In case that the friction is higher the frequency change is also larger. And this reflects the spectrum.
+This effect is gaining importance the higher the observed frequencies are, because the frequency change is larger by the number of each harmonic.
+If one wants to sum up the spectrum into bins with a fixed with as it was done before, the results aren't representative anymore for all harmonics.
 The following chart shows the results of the STFT with decreasing speed. The tendency of the red crossed bars is different to the analysis results with constant speed.
 
 

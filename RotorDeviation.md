@@ -1,13 +1,13 @@
 # Description and effects of the rotor deviation
 
-<!--- Piture Airgap  -->
+<!--- Picture Airgap  -->
 <img src="Failure_Description/IMG_20200809_094218_APSM_Airgap1.jpg" width="400" />
 
 
 Members of the Wind Empowerment Community told me about bearing problems appearing after long operating times. In particular is the loosening of the bearing screw a severe failure. When this screw gets loose the rotor of the wind turbine bents down towards the ground. But it will move only a little bit, because very soon the rotor's magnets will touch the stator. Then when the wind turbine starts turning, the sharp edges of the magnets will destroy the thin isolation of stator.
 
 ## Rotor Deviation vs. Stator Inclination
-In the following the described failure is called rotor deviation. The drawing shows the APSM with the pivot point in the bearing, the blue colored rotor and the orange colored stator.
+In the following the described failure is called rotor deviation. The drawing shows the APSM with the pivot point in the bearing, the blue colored rotor and the orange colored stator. On the next picture the rotor is in the deviated position.
 
 <!--- Rotor Deviation Picture Laboratory -->
 <img src="Failure_Description/IMG_20210727_171714_RotorDeviation.jpg" width="400" />
@@ -30,6 +30,6 @@ The next drawing shows the position of the stator in the magnetic field when the
 When the wind turbine is rotating the magnetic flux caused by the magnets passes the stator's coils with the rotor's velocity. The change of the flux linkage in each coil induces the voltage. According to Faraday's law is the induced voltage proportional to the change of the flux linkage over time:
 <!--- Flux Rotor Deviation  -->
 <img src="Failure_Description/FaradaysLaw.png" width="100" />
-When the rotor is deviated the flux density in the area of the coils differs to the original state. This leads to an altered flux linkage curve and an altered voltage curve. Due to the vertical misalignment of the rotor to the stator the overall amount of to the flux linked to the coils is lower. That's why the voltage RMS value is reduced in case of rotor deviation.
+When the rotor is deviated the flux density in the area of the coils differs to the original state. This leads to an altered flux linkage curve and an altered voltage curve. Due to the vertical misalignment of the rotor to the stator the overall amount of the flux linked to the coils is lower. That's why the voltage RMS value is reduced in case of rotor deviation.
 
-Another approach for the detection of the rotor deviation is to analyse the timestamps of the **voltage zero crossing (ZC)**. In theory the time of the Voltage ZC changes when the rotor is deviated. The cause can be explained when one looks at the voltage induced in one coil. The voltages ZC happens when the amount of flux linkage is maximal, because then the flux linkage time derivative equals zero when it changes its sign. If the rotor is deviated the radial position of one's coil flux linkage direction changes. Especially when one pole's two magnets on the two rotor disks are not positioned ideally parallel. In the drawing the violett flux linkage shows this case.
+Another approach for the detection of the rotor deviation is to analyse the timestamps of the **voltage zero crossing (ZC)**. In theory the time of the Voltage ZC changes when the rotor is deviated. The cause can be explained when one looks at the voltage induced in one coil. The voltages ZC happens when the amount of flux linkage is maximal, because then the flux linkage time derivative equals zero when it changes its sign. If the rotor is deviated the radial position of one's coil flux linkage direction changes. Especially when one pole's two magnets on the two rotor disks are not positioned ideally parallel. In the drawing the violet flux linkage shows this case.
