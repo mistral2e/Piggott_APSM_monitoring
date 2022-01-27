@@ -10,7 +10,7 @@ Members of the Wind Empowerment Community told me about bearing problems appeari
 In the following the described failure is called rotor deviation. The drawing shows the APSM with the pivot point in the bearing, the blue colored rotor and the orange colored stator.
 
 <!--- Rotor Deviation Picture Laboratory -->
-<img src="Failure_Description/IMG_20210727_171714_RotorDeviation.jpg" width="200" />
+<img src="Failure_Description/IMG_20210727_171714_RotorDeviation.jpg" width="400" />
 <!--- Rotor Deviation  -->
 <img src="Failure_Description/RotAuslenk.svg" width="200" />
 

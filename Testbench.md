@@ -1,6 +1,6 @@
-# Description of the Test bench
+# Description of the testbench
 
-The aim is to perform measurements with a deviated rotor and a rotor in the failure free normal position.
+The aim is to perform measurements with a deviated rotor and with a rotor in the failure free parallel position.
 Therefore the generator is mounted on a welded steel stand. The generator is then in the same position as on the wind turbine's tower.
 
 <img src="Testbench/Akkuschrauberantrieb.jpg" width="300" />
@@ -15,7 +15,7 @@ The APSM is the Piggott 2F12P model:
 + 12 Coils, 1.6mm Cu wire, 3 coils per line, star connection
 
 ## Measuring Equipment
-The following Equipment for measuring the voltage are used:
+The following equipment for measuring the voltage are used:
 + Oscilloscope Keysight InfiniiVision 2000
 + Mikrocontroller ESP8266 
 
@@ -29,7 +29,7 @@ The aim of this microcontroller circuit is to measure the roational speed with h
 * bridge rectifier
 * [constant power source circuit](http://www.dieelektronikerseite.de/Pics/Lections/Konstantstromquelle%20-%20Immer%20das%20Gleiche%20S01.GIF)
 * optocoupler
-* **Bild Schaltplan**
+
 
 ## Auxiliary Generator drive
 The Generator is driven by a DC-Motor, which is power by a laboratory DC power supply. The speed can be adjusted by altering the DC supply voltage. For the sake of simplicity an old cordless screw driver with a DC Motor has been used. 
