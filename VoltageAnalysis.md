@@ -33,6 +33,7 @@ With the numpy fft function the voltage signal was analyzed. Due to the slightly
 
 **Results:** With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic are increased.
 
+**Practical Implementation:** An approximate [calculation](./Voltage_Analysis/FourierSyntheseAndESP8266ADC.ipynb) shows that the resolution of an ESP8266 ADC is high enough to detect the rotor deviation.
 
 ## Voltage Zero Crossing Time Analysis
 Another approach for the detection of the rotor deviation is to analyse the timestamps of the *voltage zero crossing (ZC)*. In theory the time of the Voltage ZC changes when the rotor is deviated. The additional hardware is described *here*. On the one hand is the advantage of this method the simple and cheap hardware setup. On the other hand is the analysis a way more complicated. Within this work a change of the ZC timestamps could not be shown. In the 'ZC_lines.csv' file are the timestamps recorded by the ESP8266 stored, which were sent to an computer. The timestamps of the ZC between all three lines were recorded. Then the Python notebooks were used to visualize the time differences. For this the time differences between each timestamp were calculated. Then a regression was made to have an estimated time for each ZC-Event. The difference between the regression and the measured timestamp is then visually analyzed. 
