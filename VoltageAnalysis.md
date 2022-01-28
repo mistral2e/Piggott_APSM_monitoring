@@ -7,7 +7,7 @@ When the rotor is deviated, the flux linkage is reduced. The consequence is a lo
 
 <img src="./Voltage_Analysis/U_RotorDeviated.svg" width="600" />
 
-When the stator is inclined, there can be no significant variation of the effective voltage value be observed. [Link](./Voltage_Analysis/StatorInclination_URMS_nconst.ipynb) to the notebook.
+When the stator is inclined, there can be no significant variation of the effective voltage value observed. [Link](./Voltage_Analysis/StatorInclination_URMS_nconst.ipynb) to the notebook.
 
 <img src="./Voltage_Analysis/U_StatorInclination.svg" width="600" />
 
@@ -23,7 +23,7 @@ For the interested reader I want to explain the core principal behind the FT. In
 
 In the laboratory four measurement series were recorded. The first one with the failure free parallel positioning of rotor and stator. Then the bearing screw was loosened, the rotor deviated and a second series was recorded. Two days later the bearing screw was tightened again and a third series was recorded. For the last recording the stator was inclined by varying the position of the nuts. For each arrangement five scope recordings were made and analyzed. The rotor speed was kept constant.
 
-With the numpy fft function the voltage signal was analyzed. Due to the slightly different rotor speed the spectra of each arrangement are not identical. For a better comparability the frequency scale is transformed to the ordinal number of the harmonics. Then the values are grouped into frequency bins with a bin-width around 5 Hz.
+With the numpy fft function the voltage signal was analyzed. Due to the slightly different rotor speed the spectra of each arrangement are not identical. For a better comparability, the frequency scale is transformed to the ordinal number of the harmonics. Then the values are grouped into frequency bins with a bin-width around 5 Hz.
 
 * [Notebook Rotor Deviation](./Voltage_Analysis/RotorDeviation_FFT_nconst.ipynb)
 * [Notebook Stator Inclination](./Voltage_Analysis/StatorInclination_FFT_nconst.ipynb) 
@@ -31,7 +31,7 @@ With the numpy fft function the voltage signal was analyzed. Due to the slightly
 
 <img src="./Voltage_Analysis/fc_Bins_plot_all_nconst.svg" width="800" />
 
-**Results:** With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the Amplitudes of the 3rd, 5th and 9th harmonic increase.
+**Results:** With the measurements it is proved that the harmonic content increases when the rotor deviated. Especially the amplitudes of the 3rd, 5th and 9th harmonic increase.
 
 **Practical Implementation:** An approximate [calculation](./Voltage_Analysis/FourierSyntheseAndESP8266ADC.ipynb) shows that the resolution of an ESP8266 ADC is high enough to detect the rotor deviation.
 
