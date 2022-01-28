@@ -1,6 +1,6 @@
 # FEMM Simulation of the Piggott APSM Generator
 
-Before the the test stand was build up, a simulation was done to get get a better understanding of the magnetic circuit in the APSM. A 2D Simulation along the circumference of the machine was made with [FEMM](https://www.femm.info/).
+Before the the test stand was build up, a simulation was done to get get a better understanding of the magnetic circuit in the APSM. A 2D Simulation along the circumference of the machine was performed with [FEMM](https://www.femm.info/).
 The first outcome of the simulation is the knowledge about the double cone shape of the flux density distribution in the airgap between the rotor disks. 
 
 <img src="./FEMM_Simulation/FlussdichteAPSM.png" width="600" />
@@ -13,7 +13,7 @@ When the coils are closer to the magnets, the flux density is higher:
 <img src="./FEMM_Simulation/B_Airgap_FEK.svg" width="800" />
 
 ## Effects on the induced Voltage
-The flux linkeage of an inclined coil close to the magnets shows the following chart:
+The flux linkage of an inclined coil close to the magnets shows the following chart:
 <img src="./FEMM_Simulation/FluxLinkeage.svg" width="800" />
 
 
@@ -24,7 +24,7 @@ For having the same levels as the original generator, the simulated induced volt
 <img src="./FEMM_Simulation/uiFormular.png" width="300" />
 
 <img src="./FEMM_Simulation/U_Sim_U_Diff.svg" width="800" />
-The chart shows the difference between the induced voltage when the rotor is deviated and in the failure free position. One can see, that there is a similarity to the third harmonic. Later on in the experiments it is shown, that the 3rd harmonic increases when the rotor is deviated.
+The chart shows the difference between the induced voltage when the rotor is deviated and in the failure free position. One can see that there is a similarity to the third harmonic. Later on in the experiments it is shown that the 3rd harmonic increases when the rotor is deviated.
 
-All in all does the simulation shows that the harmonic content of the induced voltage increases when the coils are closer and inclined to the magnets.
+All in all the simulation shows that the harmonic content of the induced voltage increases when the coils are closer and inclined to the magnets.
 
