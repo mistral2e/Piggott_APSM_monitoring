@@ -1,7 +1,7 @@
 # Description of the testbench
 
 The aim is to perform measurements with a deviated rotor and with a rotor in the failure free parallel position.
-Therefore the generator is mounted on a welded steel stand. The generator is then in the same position as on the wind turbine's tower.
+Therefore, the generator is mounted on a welded steel stand. The generator is then in the same position as on the wind turbine's tower.
 
 <img src="Testbench/Akkuschrauberantrieb.jpg" width="300" />
 The rotor deviation is achieved by loosening the bearing screw manually.
@@ -20,8 +20,8 @@ The following equipment for measuring the voltage are used:
 + Mikrocontroller ESP8266 
 
 ### Oscilloscope
-The Oscilloscope is directly connected to the APSM terminals: GND - L1, Ch1 - L2, Ch2 - L3.
-In case of Measurements with decreasing rotational speed, the Oscilloscope is triggered by the ESP8266. The Mikrocontroller calculates the speed by measuring the frequency and triggers the Oscilloscope when the speed falls under a predefined value.
+The oscilloscope is directly connected to the APSM terminals: GND - L1, Ch1 - L2, Ch2 - L3.
+In case of measurements with decreasing rotational speed, the oscilloscope is triggered by the ESP8266. The mikrocontroller calculates the speed by measuring the frequency and triggers the oscilloscope when the speed falls under a predefined value.
 
 ## Voltage Zero-Crossing (ZC) Detection
 The aim of this microcontroller circuit is to measure the roational speed with high accuracy. The analysis of this data also leads to the approach to detect the rotor deviation on the basis of ZC time differences. The hardware components are:
@@ -32,7 +32,7 @@ The aim of this microcontroller circuit is to measure the roational speed with h
 
 
 ## Auxiliary Generator drive
-The Generator is driven by a DC-Motor, which is power by a laboratory DC power supply. The speed can be adjusted by altering the DC supply voltage. For the sake of simplicity an old cordless screw driver with a DC Motor has been used. 
+The generator is driven by a DC-Motor, which is power by a laboratory DC power supply. The speed can be adjusted by altering the DC supply voltage. For the sake of simplicity an old cordless screw driver with a DC Motor has been used. 
 
 
 
