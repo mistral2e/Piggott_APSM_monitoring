@@ -36,7 +36,7 @@ With the numpy fft function the voltage signal was analyzed. Due to the slightly
 **Practical Implementation:** An approximate [calculation](./Voltage_Analysis/FourierSyntheseAndESP8266ADC.ipynb) shows that the resolution of an ESP8266 ADC is high enough to detect the rotor deviation.
 
 ## Voltage Zero Crossing Time Analysis
-Another approach for the detection of the rotor deviation is to analyse the timestamps of the *voltage zero crossing (ZC)*. In theory the time of the voltage ZC changes when the rotor is deviated. The additional hardware is described *here*. On the one hand is the advantage of this method the simple and cheap hardware setup. On the other hand is the analysis a way more complicated. Within this work a change of the ZC timestamps could not be shown. In the 'ZC_lines.csv' file are the timestamps recorded by the ESP8266 stored, which were sent to an computer. The timestamps of the ZC between all three lines were recorded. Then the Python notebooks were used to visualize the time differences. For this the time differences between each timestamp were calculated. Then a regression was made to have an estimated time for each ZC-Event. The difference between the regression and the measured timestamp is then visually analyzed. 
+Another approach for the detection of the rotor deviation is to analyse the timestamps of the *voltage zero crossing (ZC)*. In theory the time of the voltage ZC changes when the rotor is deviated. The additional hardware is described *here*. On the one hand, the advantage of this method is the simple and cheap hardware setup. On the other hand, the analysis is way more complicated. Within this work a change of the ZC timestamps could not be shown. In the 'ZC_lines.csv' file the timestamps are recorded by the ESP8266 stored, which were sent to a computer. The timestamps of the ZC between all three lines were recorded. Then the Python notebooks were used to visualize the time differences. For this the time differences between each timestamp were calculated. Then a regression was made to have an estimated time for each ZC-Event. The difference between the regression and the measured timestamp is then visually analysed. 
 
 <img src="./Voltage_Analysis/AZC_3Phasen_MA_9_gerade_reg_2_en.svg" width="800" />
 
@@ -47,8 +47,8 @@ The chart and the heat map show a pattern which is a result from constructional 
 * [Notebook Rotor Deviation](./Voltage_Analysis/ZC_Analysis_3phase_RotorDeviated.ipynb)
 * [Notebook Rotor Stator parallel](./Voltage_Analysis/ZC_Analysis_3phase_parallel.ipynb) 
 
-In this work some first experiments were made to show the potential of the ZC method. The next research task are:
+In this work some first experiments were made to show the potential of the ZC method. The next research tasks are:
 * improvisation of the hardware to decrease measuring errors
 * show whether the rotor deviation can be detected with the ZC timestamps
-* develop an algorithm to get the rotation angle by analyzing the pattern
+* develop an algorithm to get the rotation angle by analysing the pattern
 
