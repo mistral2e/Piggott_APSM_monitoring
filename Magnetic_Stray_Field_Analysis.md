@@ -22,3 +22,5 @@ As shown in the following charts the rotor deviation can be detected with this c
 
 But the calculation of the deviation angle is not trivial because of the curved shape of the magnetic field lines. The triangular calculation approach in the notebook fails.
 Therefore, some smart algorithms are needed.
+
+One approach is to record 3D Hall Sensor data when the rotor and stator are in the original correct position. Later on one can compare the measured 3D Sensor Data by calculating the distance of each measurment 3D Data point to the nearest one previously recorded. In the [notebook](./Stray_Field_Analysis/MagneticStrayFieldAnalysis_GY271_dist.ipynb) the calculations are shown.
